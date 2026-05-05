@@ -1,0 +1,61 @@
+# Here I move dereplicated bins and isolated genome into the same directory
+
+SAMPLES = glob_wildcards("./iso_drep_70_20/{sample}.fa").sample
+GENOME_DIR = "./iso_drep_70_20"
+
+rule all:
+    input:
+        "GTDB_classify/gtdbtk.summary.txt", # Standard output file for GTDB-Tk
+        expand("./{sample}/", sample=SAMPLES)
+
+rule GTDB_classify:
+    input:
+        GENOME_DIR
+    output:
+        directory("GTDB_classify"),
+        summary = "GTDB_classify/gtdbtk.summary.txt"
+    threads: 32
+    resources:
+        partition="base",
+        qos="long",
+        nodes=1,
+        mem_mb=500000,
+        time="10-00:00:00"
+    shell:
+        """
+        gtdbtk classify_wf \
+            --genome_dir {input} \
+            --extension fa \
+            --out_dir {output.directory} \
+            --mash_db MASH_DB \
+            --cpus {threads}
+        """
+
+rule eggNOG:
+    input:
+        GENOME_DIR + "/{sample}.fa"
+    output:
+        directory("./{sample}")
+    threads: 32
+    resources:
+        partition="base",
+        qos="normal",
+        nodes=1,
+        mem_mb=500000,
+        time="06:00:00"
+    shell:
+        """
+        mkdir -p {output}
+        mkdir -p {output}/temp
+        emapper.py \
+            --cpu {threads} \
+            --data_dir ./eggnogDB \
+            --dbmem \
+            -m diamond \
+            --itype metagenome \
+            --genepred prodigal \
+            -i {input} \
+            -o {wildcards.sample} \
+            --output_dir {output} \
+            --temp_dir {output}/temp
+        """

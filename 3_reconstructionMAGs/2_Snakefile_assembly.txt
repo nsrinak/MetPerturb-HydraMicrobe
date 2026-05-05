@@ -1,0 +1,83 @@
+SAMPLES = glob_wildcards("unmapped/{sample}_unmapped_R1.fastq").sample
+
+rule all:
+    input:
+        # 1. Assembly Outputs
+        expand("assembly/MEGAHIT/{sample}/final_assembly.fasta", sample=SAMPLES),
+        expand("assembly/METASPADES/{sample}/final_assembly.fasta", sample=SAMPLES),
+        # 2. Raw Binning Outputs (Concoct, Metabat2, Maxbin2)
+        expand("binning/MEGAHIT/{sample}/concoct_bins", sample=SAMPLES),
+        expand("binning/METASPADES/{sample}/metabat2_bins", sample=SAMPLES),
+        # 3. Final Refined Bins
+        expand("bin_refined/MEGAHIT/{sample}", sample=SAMPLES),
+        expand("bin_refined/METASPADES/{sample}", sample=SAMPLES)
+
+rule megahit:
+    input:
+        R1="unmapped/{sample}_unmapped_R1.fastq",
+        R2="unmapped/{sample}_unmapped_R2.fastq"
+    output:
+        fasta="assembly/MEGAHIT/{sample}/final_assembly.fasta",
+        report="assembly/MEGAHIT/{sample}/assembly_report.html"
+    threads: 32
+    resources:
+        partition="base", qos="normal", mem_mb=204800, time="24:00:00"
+    shell:
+        """
+        mkdir -p assembly/MEGAHIT/{wildcards.sample}
+        metawrap assembly --megahit -m 200 -t {threads} \
+            -1 {input.R1} -2 {input.R2} -o assembly/MEGAHIT/{wildcards.sample}/
+        """
+
+rule metaspades:
+    input:
+        R1="unmapped/{sample}_unmapped_R1.fastq",
+        R2="unmapped/{sample}_unmapped_R2.fastq"
+    output:
+        fasta="assembly/METASPADES/{sample}/final_assembly.fasta",
+        report="assembly/METASPADES/{sample}/assembly_report.html"
+    threads: 32
+    resources:
+        partition="base", qos="normal", mem_mb=524288, time="24:00:00"
+    shell:
+        """
+        mkdir -p assembly/METASPADES/{wildcards.sample}
+        metawrap assembly --metaspades -m 512 -t {threads} \
+            -1 {input.R1} -2 {input.R2} -o assembly/METASPADES/{wildcards.sample}/
+        """
+
+rule binning:
+    input:
+        mg="assembly/{assembler}/{sample}/final_assembly.fasta",
+        R1="unmapped/{sample}_unmapped_R1.fastq",
+        R2="unmapped/{sample}_unmapped_R2.fastq"
+    output:
+        cc=directory("binning/{assembler}/{sample}/concoct_bins"),
+        mb=directory("binning/{assembler}/{sample}/metabat2_bins"),
+        mx=directory("binning/{assembler}/{sample}/maxbin2_bins")
+    threads: 32
+    resources:
+        partition="base", qos="long", mem_mb=500000, time="5-00:00:00"
+    shell:
+        """
+        ulimit -n 2000
+        metawrap binning -o binning/{wildcards.assembler}/{wildcards.sample} \
+            -a {input.mg} -m 500 -t {threads} \
+            --metabat2 --maxbin2 --concoct {input.R1} {input.R2}
+        """
+
+rule bin_refinement:
+    input:
+        cc="binning/{assembler}/{sample}/concoct_bins",
+        mb="binning/{assembler}/{sample}/metabat2_bins",
+        mx="binning/{assembler}/{sample}/maxbin2_bins"
+    output:
+        directory("bin_refined/{assembler}/{sample}")
+    threads: 32
+    resources:
+        partition="base", qos="normal", mem_mb=500000, time="12:00:00"
+    shell:
+        """
+        metawrap bin_refinement -t {threads} -m 500 -o {output} \
+            -A {input.cc} -B {input.mb} -C {input.mx} -c 60 -x 40
+        """

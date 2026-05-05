@@ -1,0 +1,58 @@
+SAMPLES=glob_wildcards("./{sample}_R1.fastq.gz").sample
+
+rule all:
+  input:
+    #data preprocessing
+    expand("trim/{sample}_R1_001_trim.fastq.gz", sample=SAMPLES),
+    expand("trim/{sample}_R2_001_trim.fastq.gz", sample = SAMPLES),
+    expand("trim/fastp_report/{sample}.html", sample = SAMPLES),
+    expand("trim/fastp_report/{sample}.json", sample = SAMPLES),
+    #map to referent genome
+    expand("unmapped/{sample}_unmapped_R1.fastq", sample = SAMPLES),
+    expand("unmapped/{sample}_unmapped_R2.fastq", sample = SAMPLES),
+    expand("stat/{sample}_stat.txt", sample = SAMPLES)
+
+rule fastp:
+  input:
+    forw="{sample}_R1_001.fastq.gz",
+    rev="{sample}_R2_001.fastq.gz"
+  output:
+    forw="trim/{sample}_R1_001_trim.fastq.gz",
+    rev="trim/{sample}_R2_001_trim.fastq.gz",
+    html="trim/fastp_report/{sample}.html",
+    json="trim/fastp_report/{sample}.json"
+  threads: 32
+  resources:
+    partition="base",
+    qos="normal",
+    nodes=1,
+    mem_mb=500000,
+    time="12:00:00"
+  shell:
+    """
+    mkdir -p trim/
+    mkdir -p trim/fastp_report/
+    fastp --in1 {input.forw} --in2 {input.rev} --out1 {output.forw} --out2 {output.rev} --detect_adapter_for_pe --length_required 30 --thread {threads} --correction --cut_right --json {output.json} --html {output.html}
+     """
+
+rule bbmap:
+  input:
+    R1="trim/{sample}_R1_001_trim.fastq.gz",
+    R2="trim/{sample}_R2_001_trim.fastq.gz"
+  output:
+    UR1="unmapped/{sample}_unmapped_R1.fastq",
+    UR2="unmapped/{sample}_unmapped_R2.fastq",
+    stat="stat/{sample}_stat.txt"
+  threads: 32
+  resources:
+    partition="base",
+    qos="normal",
+    nodes=1,
+    mem_mb=500000,
+    time="24:00:00"
+  shell:
+    """
+    mkdir -p unmapped
+    mkdir -p stat
+    bbmap.sh in1={input.R1} in2={input.R2} outu1={output.UR1} outu2={output.UR2} statsfile={output.stat} threads={threads} fast
+    """

@@ -1,0 +1,15 @@
+# move all refined bins into the same directory before running the command
+
+rule drep:
+  threads: 32
+  resources:
+    partition="base",
+    qos="normal",
+    nodes=1,
+    mem_mb=500000,
+    time="48:00:00"
+  shell:
+    """
+    dRep dereplicate derep_bin -g ./*.fa -p {threads} -comp 70 -con 20
+    """
+
