@@ -1,0 +1,313 @@
+"","Module_des","chi_square","p_value"
+"1","M00001_Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate",17.5096425467188,0.00362810855758422
+"2","M00002_Glycolysis, core module involving three-carbon compounds",26,8.92359833449634e-05
+"3","M00003_Gluconeogenesis, oxaloacetate => fructose-6P",21.4797435897436,0.000657267847096856
+"4","M00004_Pentose phosphate pathway (Pentose phosphate cycle)",18.4086021505376,0.0024755901577977
+"5","M00005_PRPP biosynthesis, ribose 5P => PRPP",NA,NA
+"6","M00006_Pentose phosphate pathway, oxidative phase, glucose 6P => ribulose 5P",19.807772304324,0.00135788781861904
+"7","M00007_Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P",19.2533333333333,0.00172405765318426
+"8","M00008_Entner-Doudoroff pathway, glucose-6P => glyceraldehyde-3P + pyruvate",17.4055884611166,0.00379148330256993
+"9","M00009_Citrate cycle (TCA cycle, Krebs cycle)",14.8067080474791,0.0112209750254944
+"10","M00010_Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate",11.6633613018053,0.0397032988188872
+"11","M00011_Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate",12.759246496669,0.0257424351542725
+"12","M00012_Glyoxylate cycle",20.3800880088009,0.00106022125063815
+"13","M00013_Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA",18.8,0.00209414681462529
+"14","M00014_Glucuronate pathway (uronate pathway)",13.7272727272727,0.0174378481250433
+"15","M00015_Proline biosynthesis, glutamate => proline",25.7793939393939,9.84699977424038e-05
+"16","M00016_Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine",19.3952970021175,0.00162197215169057
+"17","M00017_Methionine biosynthesis, aspartate => homoserine => methionine",19.5902569235903,0.00149139645259365
+"18","M00018_Threonine biosynthesis, aspartate => homoserine => threonine",21.495966029724,0.000652631594833144
+"19","M00019_Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine",16.1228758169935,0.00650187509439071
+"20","M00020_Serine biosynthesis, glycerate-3P => serine",26,8.9235983344963e-05
+"21","M00021_Cysteine biosynthesis, serine => cysteine",21.8832900432901,0.000551031610949617
+"22","M00022_Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate",10.21926042075,0.0692556970520715
+"23","M00023_Tryptophan biosynthesis, chorismate => tryptophan",6.84172549019611,0.232680019045327
+"24","M00024_Phenylalanine biosynthesis, chorismate => phenylpyruvate => phenylalanine",17.5115303983229,0.00362520899709616
+"25","M00025_Tyrosine biosynthesis, chorismate => HPP => tyrosine",24.8588410104012,0.000148355309305103
+"26","M00026_Histidine biosynthesis, PRPP => histidine",25.5467036139014,0.000109236088871773
+"27","M00027_GABA (gamma-Aminobutyrate) shunt",15.4889190411578,0.00846532213598105
+"28","M00028_Ornithine biosynthesis, glutamate => ornithine",23.7646810308407,0.000240923283708101
+"29","M00029_Urea cycle",24.2286902286902,0.000196207227212488
+"30","M00030_Lysine biosynthesis, AAA pathway, 2-oxoglutarate => 2-aminoadipate => lysine",14.4201388888889,0.0131497751976511
+"31","M00032_Lysine degradation, lysine => saccharopine => acetoacetyl-CoA",13.1428571428571,0.022076194515851
+"32","M00033_Ectoine biosynthesis, aspartate => ectoine",13.58,0.018509344613273
+"33","M00034_Methionine salvage pathway",13.2755899234694,0.0209286187702349
+"34","M00035_Methionine degradation",11.6894444444444,0.0393000108835401
+"35","M00036_Leucine degradation, leucine => acetoacetate + acetyl-CoA",18.0954364455622,0.00282914396760812
+"36","M00038_Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate",22.2454142947501,0.000470232706882196
+"37","M00039_Monolignol biosynthesis, phenylalanine/tyrosine => monolignol",23.2470588235294,0.00030275912443298
+"38","M00040_Tyrosine biosynthesis, chorismate => arogenate => tyrosine",23.9407407407407,0.000222880201032798
+"39","M00042_Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline",3.30434782608696,0.653176098372583
+"40","M00044_Tyrosine degradation, tyrosine => homogentisate",16.1141141141141,0.00652571352039446
+"41","M00045_Histidine degradation, histidine => N-formiminoglutamate => glutamate",19.1004016064257,0.00184109449780125
+"42","M00046_Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate",20.3338461538461,0.0010816719435843
+"43","M00048_De novo purine biosynthesis, PRPP + glutamine => IMP",18.5987574978578,0.00228244961215667
+"44","M00049_Adenine ribonucleotide biosynthesis, IMP => ADP,ATP",8.00000000000004,0.15623562757772
+"45","M00050_Guanine ribonucleotide biosynthesis, IMP => GDP,GTP",3.49999999999998,0.623387627749585
+"46","M00051_De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP",14.7179682539683,0.0116379025669316
+"47","M00052_Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP",NA,NA
+"48","M00053_Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP",8.00000000000004,0.15623562757772
+"49","M00060_KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type",22.5858585858586,0.000404986554319712
+"50","M00061_D-Glucuronate degradation, D-glucuronate => pyruvate + D-glyceraldehyde 3P",17.7216380890758,0.00331628313641238
+"51","M00063_CMP-3-deoxy-D-manno-octulosonate biosynthesis, ribulose-5P => CMP-KDO",11.8050379572119,0.0375591022737535
+"52","M00064_ADP-L-glycero-D-manno-heptose biosynthesis, sedoheptulose-7P => ADP-LDmanHep",5.34390009606147,0.375366465019912
+"53","M00065_GPI-anchor biosynthesis, core oligosaccharide",26,8.92359833449638e-05
+"54","M00073_N-glycan precursor trimming",3.49999999999998,0.623387627749585
+"55","M00074_N-glycan biosynthesis, high-mannose type",3.49999999999998,0.623387627749585
+"56","M00078_Heparan sulfate degradation",13.1428571428571,0.022076194515851
+"57","M00079_Keratan sulfate degradation",16,0.00684407392242042
+"58","M00081_Pectin degradation",18.9565217391304,0.00195830898788912
+"59","M00082_Fatty acid biosynthesis, initiation",2.50999999999996,0.774988303939941
+"60","M00083_Fatty acid biosynthesis, elongation",10.4912698412698,0.0624535274540609
+"61","M00086_beta-Oxidation, acyl-CoA synthesis",26.0000000000001,8.92359833449606e-05
+"62","M00087_beta-Oxidation",23.0981661272923,0.000323286371957057
+"63","M00088_Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone",23.6363636363636,0.000254976127302818
+"64","M00089_Triacylglycerol biosynthesis",16.64,0.00523566002172415
+"65","M00090_Phosphatidylcholine (PC) biosynthesis, choline => PC",1.07692307692306,0.956125880908819
+"66","M00091_Phosphatidylcholine (PC) biosynthesis, PE => PC",1.07692307692306,0.956125880908819
+"67","M00093_Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE",8.96428571428571,0.110497188034269
+"68","M00094_Ceramide biosynthesis",16.64,0.00523566002172415
+"69","M00095_C5 isoprenoid biosynthesis, mevalonate pathway",25.5721359223301,0.000108004839991939
+"70","M00096_C5 isoprenoid biosynthesis, non-mevalonate pathway",17.0477453580902,0.00441013107795099
+"71","M00097_beta-Carotene biosynthesis, GGAP => beta-carotene",18.8964285714286,0.00200940628768974
+"72","M00098_Acylglycerol degradation",14,0.0156094161002669
+"73","M00099_Sphingosine biosynthesis",16.64,0.00523566002172415
+"74","M00101_Cholesterol biosynthesis, FPP => cholesterol",18.928,0.00198240001933388
+"75","M00102_Ergocalciferol biosynthesis, FPP => ergosterol/ergocalciferol",22.1217391304348,0.000496418581554932
+"76","M00104_Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate",7.99999999999999,0.156235627577723
+"77","M00113_Jasmonic acid biosynthesis",26.0000000000001,8.92359833449606e-05
+"78","M00114_Ascorbate biosynthesis, plants, fructose-6P => ascorbate",14.1318681318681,0.0147931174864424
+"79","M00115_NAD biosynthesis, aspartate => quinolinate => NAD",17.8044551282051,0.0032017294752749
+"80","M00116_Menaquinone biosynthesis, chorismate (+ polyprenyl-PP) => menaquinol",10.3506032647268,0.0658891281546618
+"81","M00117_Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol",16.687956585264,0.00513124212030288
+"82","M00118_Glutathione biosynthesis, glutamate => glutathione",22.2857142857143,0.00046199808092168
+"83","M00119_Pantothenate biosynthesis, valine/L-aspartate => pantothenate",7.13257575757575,0.210965735609342
+"84","M00120_Coenzyme A biosynthesis, pantothenate => CoA",25.3725247524752,0.000118050281595286
+"85","M00121_Heme biosynthesis, plants and bacteria, glutamate => heme",14.1408778670392,0.0147388757413356
+"86","M00122_Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin",22.2571562776304,0.000467818590747801
+"87","M00123_Biotin biosynthesis, pimeloyl-ACP/CoA => biotin",5.97057805469022,0.309092339042986
+"88","M00124_Pyridoxal-P biosynthesis, erythrose-4P => pyridoxal-P",20.2043650793651,0.00114403402024753
+"89","M00125_Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD",18.3385964912281,0.00255065767496863
+"90","M00126_Tetrahydrofolate biosynthesis, GTP => THF",8.94034959051463,0.111467196963345
+"91","M00127_Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP",21.7725823591923,0.000578362264819811
+"92","M00128_Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate + polyprenyl-PP => ubiquinol",26,8.92359833449631e-05
+"93","M00129_Ascorbate biosynthesis, animals, glucose-1P => ascorbate",12.5261400128452,0.0282480272331067
+"94","M00130_Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4",26,8.92359833449638e-05
+"95","M00131_Inositol phosphate metabolism, Ins(1,3,4,5)P4 => Ins(1,3,4)P3 => myo-inositol",16.64,0.00523566002172415
+"96","M00133_Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine",14.8888983823194,0.0108477575340783
+"97","M00134_Polyamine biosynthesis, arginine => ornithine => putrescine",13.04,0.0230067944055569
+"98","M00135_GABA biosynthesis, eukaryotes, putrescine => GABA",11.6212278876171,0.0403630577236458
+"99","M00136_GABA biosynthesis, prokaryotes, putrescine => GABA",13.8650712250712,0.0164896034596217
+"100","M00140_C1-unit interconversion, prokaryotes",8.00000000000004,0.15623562757772
+"101","M00141_C1-unit interconversion, eukaryotes",NA,NA
+"102","M00143_NADH dehydrogenase (ubiquinone) Fe-S protein/flavoprotein complex, mitochondria",1.07692307692306,0.956125880908819
+"103","M00144_NADH:quinone oxidoreductase, prokaryotes",20.858246427192,0.000861560359360806
+"104","M00145_NAD(P)H:quinone oxidoreductase, chloroplasts and cyanobacteria",18.9565217391304,0.00195830898788912
+"105","M00149_Succinate dehydrogenase, prokaryotes",22.2857142857143,0.00046199808092168
+"106","M00150_Fumarate reductase, prokaryotes",4.86956521739133,0.432005297715076
+"107","M00151_Cytochrome bc1 complex respiratory unit",22.2857142857143,0.00046199808092168
+"108","M00152_Cytochrome bc1 complex",22.2857142857143,0.00046199808092168
+"109","M00153_Cytochrome bd ubiquinol oxidase",17.0989010989011,0.00431599782863379
+"110","M00154_Cytochrome c oxidase",14.2417153996101,0.0141447608130229
+"111","M00155_Cytochrome c oxidase, prokaryotes",21.7454545454546,0.000585260756839654
+"112","M00156_Cytochrome c oxidase, cbb3-type",24.4914418334784,0.000174636355354191
+"113","M00157_F-type ATPase, prokaryotes and chloroplasts",19.9911111111111,0.00125453958802179
+"114","M00160_V-type ATPase, eukaryotes",26.0000000000001,8.92359833449606e-05
+"115","M00162_Cytochrome b6f complex",15.8260869565217,0.00735854884217909
+"116","M00165_Reductive pentose phosphate cycle (Calvin cycle)",17.7716130926171,0.00324668587868797
+"117","M00168_CAM (Crassulacean acid metabolism), dark",19.8681318681319,0.00132297095552739
+"118","M00169_CAM (Crassulacean acid metabolism), light",NA,NA
+"119","M00170_C4-dicarboxylic acid cycle, phosphoenolpyruvate carboxykinase type",17.4940249173659,0.00365218293600242
+"120","M00171_C4-dicarboxylic acid cycle, NAD - malic enzyme type",19.1111111111111,0.00183265060658335
+"121","M00172_C4-dicarboxylic acid cycle, NADP - malic enzyme type",19.1111111111111,0.00183265060658335
+"122","M00173_Reductive citrate cycle (Arnon-Buchanan cycle)",16.2286528554204,0.00622069326202488
+"123","M00174_Methane oxidation, methanotroph, methane => formaldehyde",26,8.92359833449628e-05
+"124","M00175_Nitrogen fixation, nitrogen => ammonia",1.07692307692306,0.956125880908819
+"125","M00176_Assimilatory sulfate reduction, sulfate => H2S",11.4433690064002,0.0432644287048783
+"126","M00307_Pyruvate oxidation, pyruvate => acetyl-CoA",16.3271713615024,0.00596948773220428
+"127","M00308_Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P",21.4232558139535,0.000673666428969404
+"128","M00309_Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate",2.24000000000003,0.815037631979303
+"129","M00338_Cysteine biosynthesis, homocysteine + serine => cysteine",13.8268398268398,0.0167475835561065
+"130","M00344_Formaldehyde assimilation, xylulose monophosphate pathway",22.672,0.000389947791181196
+"131","M00345_Formaldehyde assimilation, ribulose monophosphate pathway",9.07129629629628,0.106253957802161
+"132","M00346_Formaldehyde assimilation, serine pathway",19.4978244720365,0.00155196224369407
+"133","M00357_Methanogenesis, acetate => methane",10.5557692307692,0.0609349347824211
+"134","M00358_Coenzyme M biosynthesis",21.7454545454546,0.000585260756839654
+"135","M00364_C10-C20 isoprenoid biosynthesis, bacteria",24.2514619883041,0.000194237879059272
+"136","M00365_C10-C20 isoprenoid biosynthesis, archaea",26,8.9235983344963e-05
+"137","M00366_C10-C20 isoprenoid biosynthesis, plants",26,8.9235983344963e-05
+"138","M00367_C10-C20 isoprenoid biosynthesis, non-plant eukaryotes",26,8.9235983344963e-05
+"139","M00368_Ethylene biosynthesis, methionine => ethylene",NA,NA
+"140","M00372_Abscisic acid biosynthesis, beta-carotene => abscisic acid",17.4909090909091,0.00365700460894678
+"141","M00373_Ethylmalonyl pathway",11.0855193004905,0.0497105062050753
+"142","M00374_Dicarboxylate-hydroxybutyrate cycle",20.475224437449,0.00101739761934543
+"143","M00375_Hydroxypropionate-hydroxybutylate cycle",14.9297052154195,0.0106669574971317
+"144","M00376_3-Hydroxypropionate bi-cycle",8.49009410599307,0.131214185782745
+"145","M00377_Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)",13.7807056067926,0.0170640758415221
+"146","M00417_Cytochrome o ubiquinol oxidase",12.275,0.0312078823544499
+"147","M00418_Toluene degradation, anaerobic, toluene => benzoyl-CoA",1.07692307692306,0.956125880908819
+"148","M00432_Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate",25.7793939393939,9.84699977424038e-05
+"149","M00525_Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine",26,8.9235983344964e-05
+"150","M00526_Lysine biosynthesis, DAP dehydrogenase pathway, aspartate => lysine",13.2421208750464,0.0212124565624109
+"151","M00527_Lysine biosynthesis, DAP aminotransferase pathway, aspartate => lysine",18.1542454579162,0.00275917662051714
+"152","M00529_Denitrification, nitrate => nitrogen",13.6088718450827,0.0182944066877877
+"153","M00530_Dissimilatory nitrate reduction, nitrate => ammonia",17.2937282986111,0.00397514043269775
+"154","M00531_Assimilatory nitrate reduction, nitrate => ammonia",18.4216628959276,0.00246182680142508
+"155","M00532_Photorespiration",15.8905263157895,0.00716367676658836
+"156","M00533_Homoprotocatechuate degradation, homoprotocatechuate => 2-oxohept-3-enedioate",11.3045864366915,0.0456644085929886
+"157","M00534_Naphthalene degradation, naphthalene => salicylate",12.9889916336416,0.0234821470797162
+"158","M00535_Isoleucine biosynthesis, pyruvate => 2-oxobutanoate",24.2970094821298,0.000190357309776986
+"159","M00537_Xylene degradation, xylene => methylbenzoate",9.79999999999999,0.0811046059130952
+"160","M00538_Toluene degradation, toluene => benzoate",11.7894736842105,0.0377891660036359
+"161","M00540_Benzoate degradation, cyclohexanecarboxylic acid =>pimeloyl-CoA",9.69230769230768,0.0844380624264725
+"162","M00541_Benzoyl-CoA degradation, benzoyl-CoA => 3-hydroxypimeloyl-CoA",5.75000000000002,0.331309984803921
+"163","M00542_EHEC/EPEC pathogenicity signature, T3SS and effectors",22.3636363636364,0.000446477582541229
+"164","M00545_Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA",18.1372138470128,0.00277926347592763
+"165","M00546_Purine degradation, xanthine => urea",23.9812237685001,0.000218924138635922
+"166","M00548_Benzene degradation, benzene => catechol",1.07692307692306,0.956125880908819
+"167","M00549_Nucleotide sugar biosynthesis, glucose => UDP-glucose",20.1060707885305,0.00119372521133482
+"168","M00550_Ascorbate degradation, ascorbate => D-xylulose-5P",22.2938412698412,0.000460354794355192
+"169","M00551_Benzoate degradation, benzoate => catechol / methylbenzoate => methylcatechol",21.2539682539682,0.000725264851096727
+"170","M00552_D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P",2.7912093202388,0.732136900175282
+"171","M00554_Nucleotide sugar biosynthesis, galactose => UDP-galactose",18.9565217391304,0.00195830898788912
+"172","M00555_Betaine biosynthesis, choline => betaine",21.4552706552706,0.000664323534151795
+"173","M00564_Helicobacter pylori pathogenicity signature, cagA pathogenicity island",2.24000000000003,0.815037631979303
+"174","M00565_Trehalose biosynthesis, D-glucose 1P => trehalose",14.7174357319566,0.0116404492681872
+"175","M00567_Methanogenesis, CO2 => methane",1.07692307692306,0.956125880908819
+"176","M00568_Catechol ortho-cleavage, catechol => 3-oxoadipate",18.2823095983307,0.00261262890650216
+"177","M00569_Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA",18.0708671562943,0.00285888718362186
+"178","M00570_Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine",16.0593338169508,0.00667669912905656
+"179","M00572_Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP",20.5469234174414,0.000986253368051443
+"180","M00573_Biotin biosynthesis, BioI pathway, long-chain-acyl-ACP => pimeloyl-ACP => biotin",5.08003108003108,0.406191437305238
+"181","M00575_Pertussis pathogenicity signature, T1SS",9.43657232704405,0.0928674710834017
+"182","M00577_Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin",5.97057805469022,0.309092339042986
+"183","M00579_Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate",12.6109449760766,0.0273106147041024
+"184","M00580_Pentose phosphate pathway, archaea, fructose 6P => ribose 5P",22.2857142857143,0.00046199808092168
+"185","M00595_Sulfur oxidation, SOX system, thiosulfate => sulfate",9.95125980999588,0.0766281162540745
+"186","M00596_Dissimilatory sulfate reduction, sulfate => H2S",7.86111111111111,0.164058007020611
+"187","M00609_Cysteine biosynthesis, methionine => cysteine",16.1408199643494,0.00645331802289148
+"188","M00615_Nitrate assimilation",19.4202564102564,0.00160464833503616
+"189","M00616_Sulfate-sulfur assimilation",22.6276803118908,0.000397615039075786
+"190","M00620_Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate",13.9354166666667,0.0160249043354356
+"191","M00621_Glycine cleavage system",6.16964285714286,0.290060222081353
+"192","M00622_Nicotinate degradation, nicotinate => fumarate",2.24000000000003,0.815037631979303
+"193","M00623_Phthalate degradation, phthalate => protocatechuate",9.79999999999999,0.0811046059130952
+"194","M00624_Terephthalate degradation, terephthalate => 3,4-dihydroxybenzoate",1.07692307692306,0.956125880908819
+"195","M00627_beta-Lactam resistance, Bla system",5.50274725274725,0.357644728654542
+"196","M00631_D-Galacturonate degradation (bacteria), D-galacturonate => pyruvate + D-glyceraldehyde 3P",19.0538647342995,0.00187823225148097
+"197","M00632_Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P",16.0624505928854,0.00666801811434032
+"198","M00637_Anthranilate degradation, anthranilate => catechol",17,0.00449979697797054
+"199","M00638_Salicylate degradation, salicylate => gentisate",9.7669252468265,0.0821151946682863
+"200","M00639_Multidrug resistance, efflux pump MexCD-OprJ",3.26111111111112,0.659800609725635
+"201","M00641_Multidrug resistance, efflux pump MexEF-OprN",22.9333333333333,0.000347617101518257
+"202","M00642_Multidrug resistance, efflux pump MexJK-OprM",23.6467768991134,0.000253806119577015
+"203","M00643_Multidrug resistance, efflux pump MexXY-OprM",26,8.92359833449635e-05
+"204","M00649_Multidrug resistance, efflux pump AdeABC",8.96366013071896,0.110522441614629
+"205","M00651_Vancomycin resistance, D-Ala-D-Lac type",11.3123338649655,0.0455271780455056
+"206","M00660_Xanthomonas spp. pathogenicity signature, T3SS and effectors",26,8.92359833449633e-05
+"207","M00664_Nodulation",4.86956521739133,0.432005297715076
+"208","M00673_Cephamycin C biosynthesis, aminoadipate + cycteine + valine => cephamycin C",12.1875,0.032306987592258
+"209","M00696_Multidrug resistance, efflux pump AcrEF-TolC",8.00000000000004,0.15623562757772
+"210","M00697_Multidrug resistance, efflux pump MdtEF-TolC",22.9333333333333,0.000347617101518257
+"211","M00698_Multidrug resistance, efflux pump BpeEF-OprC",6.32113402061855,0.276213132946192
+"212","M00702_Multidrug resistance, efflux pump NorB",5.75000000000002,0.331309984803921
+"213","M00714_Multidrug resistance, efflux pump QacA",5.75000000000002,0.331309984803921
+"214","M00718_Multidrug resistance, efflux pump MexAB-OprM",26,8.92359833449635e-05
+"215","M00725_Cationic antimicrobial peptide (CAMP) resistance, dltABCD operon",16.7375,0.00502550434318704
+"216","M00726_Cationic antimicrobial peptide (CAMP) resistance, lysyl-phosphatidylglycerol (L-PG) synthase MprF",22.2857142857143,0.00046199808092168
+"217","M00736_Nocardicin A biosynthesis, L-pHPG + arginine + serine => nocardicin A",5.01071428571431,0.414574000750487
+"218","M00740_Methylaspartate cycle",13.6,0.0183601964095195
+"219","M00741_Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA",15.1101918878548,0.00990173684363425
+"220","M00744_Cationic antimicrobial peptide (CAMP) resistance, protease PgtE",18.3333333333333,0.00255639073855354
+"221","M00745_Imipenem resistance, repression of porin OprD",12.3081306158229,0.0308011092257858
+"222","M00746_Multidrug resistance, repression of porin OmpF",3.49999999999998,0.623387627749585
+"223","M00761_Undecaprenylphosphate alpha-L-Ara4N biosynthesis, UDP-GlcA => undecaprenyl phosphate alpha-L-Ara4N",8.98893540669857,0.109506302041248
+"224","M00769_Multidrug resistance, efflux pump MexPQ-OpmE",22.5,0.000420545416571837
+"225","M00789_Rebeccamycin biosynthesis, tryptophan => rebeccamycin",3.00000000000003,0.699985835878624
+"226","M00790_Pyrrolnitrin biosynthesis, tryptophan => pyrrolnitrin",9.77777777777777,0.0817823209414219
+"227","M00793_dTDP-L-rhamnose biosynthesis, glucose-1P => dTDP-L-Rha",3.49999999999998,0.623387627749585
+"228","M00801_dTDP-L-olivose biosynthesis",8.00000000000004,0.15623562757772
+"229","M00802_dTDP-D-forosamine biosynthesis",8.00000000000004,0.15623562757772
+"230","M00804_Complete nitrification, comammox, ammonia => nitrite => nitrate",16.8,0.00489514456773813
+"231","M00814_Acarbose biosynthesis, sedoheptulopyranose-7P => acarbose",13.2336956521739,0.0212844883488333
+"232","M00815_Validamycin A biosynthesis, sedoheptulopyranose-7P => validamycin A",18.6875,0.00219744956306742
+"233","M00835_Pyocyanine biosynthesis, chorismate => pyocyanine",23.7391304347826,0.00024365904981206
+"234","M00840_Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF",3.49999999999998,0.623387627749585
+"235","M00841_Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF",16.64,0.00523566002172415
+"236","M00842_Tetrahydrobiopterin biosynthesis, GTP => BH4",10.2044444444444,0.0696453704323125
+"237","M00843_L-threo-Tetrahydrobiopterin biosynthesis, GTP => L-threo-BH4",10.2044444444444,0.0696453704323125
+"238","M00844_Arginine biosynthesis, ornithine => arginine",24.2865110817555,0.000191244899116412
+"239","M00845_Arginine biosynthesis, glutamate => acetylcitrulline => arginine",23.5978407557355,0.00025935098511212
+"240","M00846_Siroheme biosynthesis, glutamyl-tRNA => siroheme",13.0488800617897,0.0229249895662097
+"241","M00848_Aurachin biosynthesis, anthranilate => aurachin A",NA,NA
+"242","M00849_C5 isoprenoid biosynthesis, mevalonate pathway, archaea",21.3677559912854,0.000690170811812813
+"243","M00850_Vibrio cholerae pathogenicity signature, cholera toxins",2.66847826086957,0.750935163934404
+"244","M00851_Carbapenem resistance",1.07692307692306,0.956125880908819
+"245","M00854_Glycogen biosynthesis, glucose-1P => glycogen/starch",18.0892494929006,0.00283660511434502
+"246","M00855_Glycogen degradation, glycogen => glucose-6P",17.7974956822107,0.00321120485519415
+"247","M00860_Bacillus anthracis pathogenicity signature, polyglutamic acid capsule biosynthesis",7.76410256410257,0.169724556886609
+"248","M00861_beta-Oxidation, peroxisome, VLCFA",26.0000000000001,8.92359833449606e-05
+"249","M00866_KDO2-lipid A biosynthesis, Raetz pathway, non-LpxL-LpxM type",26.0000000000001,8.92359833449606e-05
+"250","M00867_KDO2-lipid A modification pathway",12.7472527472527,0.0258659850719962
+"251","M00868_Heme biosynthesis, animals and fungi, glycine => heme",5.07070707070708,0.4073121403107
+"252","M00872_O-glycan biosynthesis, mannose type (core M3)",8.00000000000004,0.15623562757772
+"253","M00873_Fatty acid biosynthesis in mitochondria, animals",NA,NA
+"254","M00874_Fatty acid biosynthesis in mitochondria, fungi",NA,NA
+"255","M00875_Staphyloferrin B biosynthesis, L-serine => staphyloferrin B",2.23181818181818,0.816226950083166
+"256","M00878_Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA",12.5535657936257,0.0279415530795813
+"257","M00879_Arginine succinyltransferase pathway, arginine => glutamate",15.2367626886145,0.00939717309196594
+"258","M00880_Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor",16.7817429279103,0.00493287913471987
+"259","M00881_Lipoic acid biosynthesis, plants and bacteria, octanoyl-ACP => dihydrolipoyl-E2/H",NA,NA
+"260","M00882_Lipoic acid biosynthesis, eukaryotes, octanoyl-ACP => dihydrolipoyl-H",NA,NA
+"261","M00883_Lipoic acid biosynthesis, animals and bacteria, octanoyl-ACP => dihydrolipoyl-H => dihydrolipoyl-E2",NA,NA
+"262","M00884_Lipoic acid biosynthesis, octanoyl-CoA => dihydrolipoyl-E2",NA,NA
+"263","M00885_Meromycolic acid biosynthesis, initiation and elongation FAS II (KasA)",1.07692307692306,0.956125880908819
+"264","M00886_Meromycolic acid biosynthesis, initiation and elongation FAS II (KasA and KasB)",1.07692307692306,0.956125880908819
+"265","M00887_Mycolic acid biosynthesis, meromycolic acid + alpha-carboxyacyl-CoA + trehalose => TMM => TDM/mAGP/GMM",1.07692307692306,0.956125880908819
+"266","M00888_Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5",5.27499999999999,0.383248711488484
+"267","M00892_UDP-N-acetyl-D-glucosamine biosynthesis, eukaryotes, glucose => UDP-GlcNAc",22.1644444444445,0.000487217838582572
+"268","M00895_Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP",21.3872203683105,0.00068433766376343
+"269","M00896_Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP",14.1619423513934,0.0146128089368674
+"270","M00897_Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP",10.5411764705882,0.0612754521804126
+"271","M00898_Thiamine biosynthesis, pyridoxal-5P => TMP/thiamine/TPP",19.3142857142857,0.00167947617997621
+"272","M00899_Thiamine salvage pathway, HMP/HET => TMP",19.5959595959596,0.00148773685829432
+"273","M00905_Grixazone biosynthesis, aspartate 4-semialdehyde => grixazone B",1.07692307692306,0.956125880908819
+"274","M00909_UDP-N-acetyl-D-glucosamine biosynthesis, prokaryotes, glucose => UDP-GlcNAc",19.7651779935275,0.00138307156588859
+"275","M00911_Riboflavin biosynthesis, fungi, GTP => riboflavin/FMN/FAD",11.6181069958848,0.0404123387062132
+"276","M00912_NAD biosynthesis, tryptophan => quinolinate => NAD",18.203657120743,0.00270170282171599
+"277","M00913_Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate",17.8823529411765,0.00309752097066422
+"278","M00914_Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA",12.4888888888889,0.0286694479139858
+"279","M00915_Caffeine degradation, caffeine => xanthine",18.6875,0.00219744956306742
+"280","M00917_Phytosterol biosynthesis, squalene 2,3-epoxide => campesterol/sitosterol",12.1875,0.032306987592258
+"281","M00918_Aerobactin biosynthesis, lysine => aerobactin",13.2105263157895,0.0214837896122459
+"282","M00922_CMP-Neu5Ac biosynthesis, UDP-GlcNAc => CMP-Neu5Ac",4.44706808343174,0.486996630429207
+"283","M00923_UDP-L-FucNAm biosynthesis, UDP-GlcNAc => UDP-L-FucNAm",11.0681818181818,0.050044772360232
+"284","M00924_Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide",19.6918667144393,0.00142749625065215
+"285","M00925_Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide",20.3946774921064,0.00105354077000841
+"286","M00926_Heme biosynthesis, bacteria, glutamyl-tRNA => coproporphyrin III => heme",7.89684499314129,0.162013083088006
+"287","M00930_Menaquinone biosynthesis, futalosine pathway",8.00000000000004,0.15623562757772
+"288","M00931_Menaquinone biosynthesis, modified futalosine pathway",8.00000000000004,0.15623562757772
+"289","M00932_Phylloquinone biosynthesis, chorismate (+ phytyl-PP) => phylloquinol",11.2897435897436,0.045928413808422
+"290","M00938_Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP",22.5311268715524,0.000414837741044965
+"291","M00939_Pyrimidine degradation, uracil => 3-hydroxypropanoate",11.1020793950851,0.0493931954708088
+"292","M00942_Pterocarpan biosynthesis, daidzein => medicarpin",1.07692307692306,0.956125880908819
+"293","M00947_D-Arginine racemization, D-arginine => L-arginine",17,0.00449979697797054
+"294","M00948_Hydroxyproline degradation, trans-4-hydroxy-L-proline => 2-oxoglutarate",15.9957076697165,0.00685633940844463
+"295","M00950_Biotin biosynthesis, BioU pathway, pimeloyl-ACP/CoA => biotin",5.08003108003108,0.406191437305238
+"296","M00953_Mugineic acid biosynthesis, methionine => 3-epihydroxymugineic acid",NA,NA
+"297","M00956_Lysine degradation, bacteria, L-lysine => succinate",16.1464218455744,0.00643823176644884
+"298","M00957_Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA",18.6199507125255,0.00226186161533114
+"299","M00958_Adenine ribonucleotide degradation, AMP => Urate",19.3841297285969,0.00162978250503575
+"300","M00959_Guanine ribonucleotide degradation, GMP => Urate",21.5435188234003,0.000639226336099791
+"301","M00960_Lysine degradation, bacteria, L-lysine => D-lysine => succinate",26,8.92359833449628e-05
+"302","M00961_Betacyanin biosynthesis, L-tyrosine => amaranthin",18.9565217391304,0.00195830898788912
+"303","M00968_Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate",18.0285714285714,0.00291080898170792
+"304","M00970_Proline degradation, proline => glutamate",18.1258562637873,0.0027927380232582
+"305","M00972_Proline metabolism",21.801827347196,0.000571015198838621
+"306","M00973_Anammox, nitrite + ammonia => nitrogen",9.25,0.0994984623808769
+"307","M00975_Betaine degradation, bacteria, betaine => pyruvate",21.3269780743565,0.000702550620364177
+"308","M00978_Ornithine-ammonia cycle",24.3470399533392,0.000186183131262337
+"309","M00982_Methylcitrate cycle",18.5502422640678,0.00233027390238254
+"310","M00984_Sulfur oxidation, tetrathionate intermediate (S4I) pathway, thiosulfate => sulfur + sulfate + thiosulfate",10.8938596491228,0.0535255230571243
+"311","M00987_Assimilatory sulfate reduction, plants, sulfate => H2S",16.84,0.00481345324469635
+"312","M00988_PreQ1 biosynthesis, GTP => 7-Aminomethyl-7-deazaguanine",21.9390363815143,0.000537755680563919

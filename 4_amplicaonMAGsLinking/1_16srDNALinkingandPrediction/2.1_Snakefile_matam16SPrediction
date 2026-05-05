@@ -1,0 +1,50 @@
+SAMPLES = glob_wildcards("./metagenome_samples/{sample}_R1.fastq").sample
+
+rule all: 
+  input:
+    expand("rename_reads/{sample}_R1.fastq", sample = SAMPLES),
+    expand("rename_reads/{sample}_R2.fastq", sample = SAMPLES),
+    expand("matam_16s/metagenomic_sample/{sample}_Matam16S_wd", sample = SAMPLES)
+
+# MarkerMAG requires a specific read tile otherwise the tool doesn't recognize.
+# It equips with the rename module, so do this before doing other analysis.
+
+rule rename:
+  input:
+    r1="./metagenomics_samples/{sample}_unmapped_R1.fastq",
+    r2="./metagenomics_samples/{sample}_unmapped_R2.fastq"
+  output:
+    r1="rename_reads/{sample}_R1.fastq",
+    r2="rename_reads/{sample}_R2.fastq"
+  threads: 32
+  resources:
+    partition="base",
+    qos="normal",
+    nodes=1,
+    mem_mb=500000,
+    time="24:00:00"
+  shell:
+    """
+    MarkerMAG rename_reads -fq -r1 {input.r1} -r2 {input.r2} -t {threads} -p {wildcards.sample}
+    mv {wildcards.sample}_R1.fastq {output.r1}
+    mv {wildcards.sample}_R2.fastq {output.r2} 
+    """
+
+rule matam:
+  input:
+    r1="rename_reads/{sample}_R1.fastq",
+    r2="rename_reads/{sample}_R2.fastq"
+  output:
+    directory("matam_16s/{sample}_Matam16S_wd")
+  threads: 32
+  resources:
+    partition="base",
+    qos="long",
+    nodes=2,
+    mem_mb=500000,
+    time="10-00:00:00"
+  shell:
+    """
+    MarkerMAG matam_16s -p {wildcards.sample} -r1 {input.r1} -r2 {input.r2} -pct 1,5,10,25,50,75,100 -i 0.999 -d db/matam/SILVA_138_1_SSURef_NR99_id99/SILVA_138.1_SSURef_NR99_tax_silva_NR99 -t {threads}
+    mv {wildcards.sample}_Matam16S_wd {output}
+    """
