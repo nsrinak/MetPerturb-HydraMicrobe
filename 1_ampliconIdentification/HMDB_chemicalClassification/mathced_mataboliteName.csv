@@ -1,0 +1,328 @@
+"","Query","Closest_Match","Distance"
+"1","Uridine-5’-monophosphate","Uridine 5'-monophosphate",0.0707
+"2","Uridine-2’,3’-cyclicmonophosphate","Uridine 5'-monophosphate",0.1629
+"3","Uridine-3’,5’-cyclicmonophosphate","Uridine 5'-monophosphate",0.154
+"4","O-Phospho-DTyrosine","O-Phosphotyrosine",0.0722
+"5","O-Phospho-LTyrosine","O-Phosphotyrosine",0.0722
+"6","Phosphocreatin","Phosphocreatine",0.0222
+"7","PhosphorylCholine","Phosphorylcholine",0.0392
+"8","Thymidine-3’- monophosphate","Thiamine monophosphate",0.1051
+"9","Thymidine-5’- monophosphate","Thiamine monophosphate",0.1051
+"10","Inositol Hexaphosphate","Inositol oxygenase",0.1949
+"11","Thymidine 3’,5’- cyclic monophosphate","Thiamine monophosphate",0.1752
+"12","Control","Cortol",0.1032
+"13","Sulfate","Sulfate",0
+"14","Thiosulfate","Thiosulfate",0
+"15","T etrathionate","5-Tetrathiane",0.153
+"16","Thiophosphate","Triphosphate",0.1851
+"17","Dithiophosphate","Diethylphosphate",0.1454
+"18","L-Cysteine","L-Cysteine",0
+"19","D-Cysteine","D-Cysteine",0
+"20","L-Cysteinyl- Glycine","Cysteinylglycine",0.1042
+"21","L-Cysteic Acid","Cysteic acid",0.0992
+"22","Cysteamine","Cysteamine",0
+"23","L-Cysteine Sulfinic Acid","L-Cysteine",0.1944
+"24","N-Acetyl-L- Cysteine","N6-Acetyl-L-lysine",0.135
+"25","S-Methyl-L- Cysteine","Methylcysteine",0.1405
+"26","Cystathionine","L-Cystathionine",0.0444
+"27","Lanthionine","Lenthionine",0.0606
+"28","Glutathione","Glutathione",0
+"29","D,L-Ethionine","L-Methionine",0.1325
+"30","L-Methionine","L-Methionine",0
+"31","D-Methionine","L-Methionine",0.0556
+"32","Glycyl-L- Methionine","Glycyl-Methionine",0.05
+"33","N-Acetyl-D,L- Methionine","N-Acetyl-L-methionine",0.0714
+"34","L-Methionine Sulfoxide","Methionine sulfoxide",0.0621
+"35","L-Methionine Sulfone","Methionine sulfoximine",0.1258
+"36","L-Djenkolic Acid","Linoleic acid",0.2161
+"37","Thiourea","Thiourea",0
+"38","1-Thio--DGlucose","8-di-O-b-D-glucoside",0.2542
+"39","D,L-Lipoamide","Lipoamide",0.1026
+"40","Taurocholic acid","Taurocholic acid",0
+"41","Taurine","Taurine",0
+"42","Hypotaurine","Hypotaurine",0
+"43","p-Amino Benzene Sulfonic Acid","p-Aminobenzoic acid",0.2416
+"44","L-Galactonic Acid-?-Lactone","Galactonic acid",0.1926
+"45","D-Galacturonic Acid","Galacturonic acid",0.0722
+"46","Phenylethyl- amine","Phenylethylamine",0.037
+"47","2-Aminoethanol","4-Aminophenol",0.153
+"48","L-Arabinose","L-Arabinose",0
+"49","N-Acetyl-DGlucosamine","N-Acetyl-D-glucosamine",0.0462
+"50","D-SaccharicAcid","Saccharin",0.1926
+"51","SuccinicAcid","Succinic acid",0.0791
+"52","D-Galactose","D-Galactose",0
+"53","L-AsparticAcid","L-Aspartic acid",0.0683
+"54","L-Proline","L-Proline",0
+"55","D-Alanine","D-Alanine",0
+"56","D-Trehalose","Trehalose",0.0606
+"57","D-Mannose","D-Mannose",0
+"58","Dulcitol","Dulciol D",0.1157
+"59","D-Serine","D-Serine",0
+"60","D-Sorbitol","Sorbitol",0.0667
+"61","Glycerol","Glycerol",0
+"62","L-Fucose","L-Fucose",0
+"63","D-GlucuronicAcid","D-Glucuronic acid",0.06
+"64","D-GluconicAcid","D-Glucuronic acid",0.1022
+"65","D,L--Glycerol-Phosphate","Glycerol Phosphate Shuttle",0.2023
+"66","D-Xylose","D-Xylose",0
+"67","L-LacticAcid","L-Lactic acid",0.0791
+"68","FormicAcid","Formic acid",0.0939
+"69","D-Mannitol","Mannitol",0.0667
+"70","L-GlutamicAcid","L-Glutamic acid",0.0683
+"71","D-Glucose-6Phosphate","D-Glucose",0.1833
+"72","D-GalactonicAcid--Lactone","Galactonolactone",0.2121
+"73","D,L-MalicAcid","D-Malic acid",0.1325
+"74","D-Ribose","D-Ribose",0
+"75","Tween20","Tejedine",0.3095
+"76","L-Rhamnose","L-Rhamnulose",0.0556
+"77","D-Fructose","D-Fructose",0
+"78","AceticAcid","Acetic acid",0.0939
+"79","D-Glucose","D-Glucose",0
+"80","Maltose","D-Maltose",0.0741
+"81","D-Melibiose","Melibiose",0.0606
+"82","Thymidine","Thymidine",0
+"83","L-Asparagine","L-Asparagine",0
+"84","D-AsparticAcid","D-Aspartic acid",0.0683
+"85","D-GlucosaminicAcid","D-Glucosaminide",0.0963
+"86","1,2-Propanediol","2-Propanedithiol",0.1069
+"87","Tween40","Tejedine",0.3095
+"88","Keto-GlutaricAcid","2-Keto-glutaramic acid",0.2008
+"89","Keto-ButyricAcid","2-Ketobutyric acid",0.1753
+"90","Methyl-DGalactoside","beta-D-Galactose",0.1934
+"91","D-Lactose","D-Galactose",0.1279
+"92","Lactulose","Lactulose",0
+"93","Sucrose","Sucrose",0
+"94","Uridine","Uridine",0
+"95","L-Glutamine","L-Glutamine",0
+"96","m-TartaricAcid","D-Tartaric acid",0.1143
+"97","D-Glucose-1Phosphate","D-Glucose",0.1833
+"98","D-Fructose-6Phosphate","D-Fructose",0.1746
+"99","Tween80","Tejedine",0.3095
+"100","HydroxyGlutaricAcid-Lactone","3-Hydroxyglutaric acid",0.2088
+"101","HydroxyButyricAcid","2-Hydroxybutyric acid",0.1164
+"102","Methyl-DGlucoside","Menthoside",0.1902
+"103","Adonitol","Dambonitol",0.2167
+"104","2-DeoxyAdenosine","Deoxyadenosine",0.0863
+"105","Adenosine","Adenosine",0
+"106","Glycyl-L-AsparticAcid","Glycyl-Aspartate",0.1895
+"107","CitricAcid","Citric acid",0.0939
+"108","m-Inositol","Inositol 1",0.1333
+"109","D-Threonine","L-Threonine",0.0606
+"110","FumaricAcid","Fumaric acid",0.0859
+"111","BromoSuccinicAcid","Succinic acid",0.1689
+"112","PropionicAcid","Propionic acid",0.0733
+"113","MucicAcid","Murocholic acid",0.1926
+"114","GlycolicAcid","Glycolic acid",0.0791
+"115","GlyoxylicAcid","Glyoxylic acid",0.0733
+"116","D-Cellobiose","Cellobiose",0.0556
+"117","Inosine","Inosine",0
+"118","Glycyl-LGlutamicAcid","Glycyl-Glutamine",0.1417
+"119","TricarballylicAcid","Taurallocholic acid",0.2491
+"120","L-Serine","L-Serine",0
+"121","L-Threonine","L-Threonine",0
+"122","L-Alanine","L-Alanine",0
+"123","L-Alanyl-Glycine","Alanylglycine",0.109
+"124","AcetoaceticAcid","Acetoacetic acid",0.0639
+"125","N-Acetyl-?-DMannosamine","N-Acetylmannosamine",0.09
+"126","MonoMethylSuccinate","Monomenthyl succinate",0.177
+"127","MethylPyruvate","Ethyl pyruvate",0.1429
+"128","D-MalicAcid","D-Malic acid",0.0859
+"129","L-MalicAcid","D-Malic acid",0.1439
+"130","Glycyl-L-Proline","Glycylproline",0.109
+"131","p-HydroxyPhenylAceticAcid","p-Hydroxyphenylacetic acid",0.0913
+"132","m-HydroxyPhenylAceticAcid","p-Hydroxyphenylacetic acid",0.1174
+"133","Tyramine","Tyramine",0
+"134","D-Psicose","D-Glucose",0.2222
+"135","L-Lyxose","L-Lysine",0.1667
+"136","Glucuronamide","Glyuranolide",0.1658
+"137","PyruvicAcid","Pyruvic acid",0.0859
+"138","L-GalactonicAcid--Lactone","Galactonolactone",0.2121
+"139","D-GalacturonicAcid","Galacturonic acid",0.0948
+"140","Phenylethyl-amine","Phenylethylamine",0.0196
+"141","ChondroitinSulfateC","Chondroitin sulfate",0.0702
+"142","a-Cyclodextrin","gamma-Cyclodextrin",0.0741
+"143","ß-Cyclodextrin","gamma-Cyclodextrin",0.1164
+"144","Y-Cyclodextrin","gamma-Cyclodextrin",0.1164
+"145","Dextrin","Dextrin",0
+"146","Gelatin","Galectin-1",0.1476
+"147","Glycogen","Glycogen",0
+"148","Inulin","Inulin",0
+"149","Laminarin","Linamarin",0.0741
+"150","Mannan","Mannan",0
+"151","Pectin","Pectin",0
+"152","N-Acetyl-D-Galactosamine","N-Acetyl-b-D-galactosamine",0.0668
+"153","N-Acetyl-NeuraminicAcid","N-Acetylneuraminic acid",0.1453
+"154","ß-D-Allose","Allose",0.1333
+"155","Amygdalin","Amygdalin",0
+"156","D-Arabinose","D-Arabinose",0
+"157","D-Arabitol","D-Arabitol",0
+"158","L-Arabitol","L-Arabitol",0
+"159","Arbutin","Arbutin",0
+"160","2-Deoxy-D-Ribose","2-Deoxy-D-ribitol",0.1409
+"161","i-Erythritol","Erythritol",0.0556
+"162","D-Fucose","D-Fucose",0
+"163","3-0-ß-D-Galactopyranosyl-D-Arabinose","2-O-b-D-Galactopyranosyl-D-xylose",0.1439
+"164","Gentiobiose","Gentiotriose",0.0859
+"165","L-Glucose","D-Glucose",0.0741
+"166","Lactitol","Lactitol",0
+"167","D-Melezitose","Melezitose",0.0556
+"168","Maltitol","Maltitol",0
+"169","a-Methyl-D-Glucoside","N-Acetyl-D-glucosamine",0.1894
+"170","ß-Methyl-D-Galactoside","5-Methylcytosine",0.1989
+"171","3-MethylGlucose","3-Methylcytosine",0.15
+"172","ß-Methyl-D-GlucuronicAcid","4-O-Methylglucuronic acid",0.1917
+"173","b-Methyl-D-Mannoside","1-Methylinosine",0.1868
+"174","ß-Methyl-D-Xyloside","5-Methylcytosine",0.2061
+"175","D-Raffinose","Raffinose",0.0606
+"176","Salicin","Salicin",0
+"177","Sedoheptulosan","Sedoheptulose",0.0733
+"178","L-Sorbose","L-Sorbose",0
+"179","Stachyose","Stachyose",0
+"180","D-Tagatose","D-Tagatose",0
+"181","Turanose","Turanose",0
+"182","Xylitol","D-Xylitol",0.0741
+"183","N-Acetyl-D-Glucosaminitol","N-Acetyl-D-glucosamine",0.097
+"184","?-AminoButyricAcid","L-alpha-Aminobutyric acid",0.1889
+"185","ButyricAcid","Butyric acid",0.0859
+"186","CapricAcid","Capric acid",0.0939
+"187","CaproicAcid","Caproic acid",0.0859
+"188","CitraconicAcid","Citraconic acid",0.0683
+"189","CitramalicAcid","Citramalic acid",0.0683
+"190","D-Glucosamine","D-Glucosaminide",0.0444
+"191","2-HydroxyBenzoicAcid","4-Hydroxybenzoic acid",0.1135
+"192","4-HydroxyBenzoicAcid","4-Hydroxybenzoic acid",0.081
+"193","ß-HydroxyButyricAcid","2-Hydroxybutyric acid",0.1135
+"194","a-Keto-ValericAcid","2-Keto-glutaramic acid",0.2191
+"195","ItaconicAcid","Itaconic acid",0.0791
+"196","5-Keto-D-GluconicAcid","5-Keto-D-gluconate",0.1852
+"197","D-LacticAcidMethylEster","D-Lactic Acidosis",0.2234
+"198","MalonicAcid","Malonic acid",0.0859
+"199","MelibionicAcid","Nalidixic Acid",0.2381
+"200","OxalicAcid","Oxalic acid",0.0939
+"201","OxalomalicAcid","Oxalic acid",0.1755
+"202","QuinicAcid","Quinic acid",0.0939
+"203","D-Ribone-1,4-Lactone","D-Ribose",0.2583
+"204","SorbicAcid","Suberic acid",0.2194
+"205","SuccinamicAcid","Succinic acid",0.1149
+"206","D-TartaricAcid","D-Tartaric acid",0.0683
+"207","L-TartaricAcid","D-Tartaric acid",0.1143
+"208","Acetamide","Acetamide",0
+"209","L-Alaninamide","L-Alanine",0.1026
+"210","N-Acetyl-L-GlutamicAcid","N-Acetyl-L-glutamic acid",0.0707
+"211","L-Arginine","L-Arginine",0
+"212","Glycine","Glycine",0
+"213","L-Histidine","L-Histidine",0
+"214","L-Homoserine","L-Homoserine",0
+"215","Hydroxy-Lproline","Hydroxyprolinemia",0.1005
+"216","L-Isoleucine","L-Isoleucine",0
+"217","L-Leucine","L-Leucine",0
+"218","L-Lysine","L-Lysine",0
+"219","L-Ornithine","Ornithine",0.0606
+"220","L-Phenylalanine","L-Phenylalanine",0
+"221","L-PyroglutamicAcid","Pyroglutamic acid",0.0948
+"222","L-Valine","L-Valine",0
+"223","D,L-Carnitine","L-Carnitine",0.0513
+"224","D,L-Octopamine","p-Octopamine",0.0992
+"225","Putrescine","Putrescine",0
+"226","DihydroxyAcetone","Dihydroxyacetone",0.0417
+"227","2,3-Butanediol","3-Butanediol",0.0476
+"228","3-Hydroxy-2-Butanone","1-Hydroxy-2-butanone",0.0667
+"229","Ammonia","Ammonia",0
+"230","Nitrite","Nitrite",0
+"231","Nitrate","Nitrate",0
+"232","Urea","Urea",0
+"233","Biuret","Bisacurone B",0.25
+"234","L-Tryptophan","L-Tryptophan",0
+"235","L-Tyrosine","L-Tyrosine",0
+"236","D-Asparagine","D-Asparagine",0
+"237","D-GlutamicAcid","D-Glutamic acid",0.0683
+"238","D-Lysine","D-Lysine",0
+"239","D-Valine","Valine",0.0833
+"240","L-Citrulline","Citrulline",0.0556
+"241","N-Acetyl-LGlutamicAcid","N-Acetyl-L-glutamic acid",0.0859
+"242","N-Phthaloyl-LGlutamicAcid","Glutamylglutamic acid",0.2619
+"243","Hydroxylamine","Hydroxylamine",0
+"244","Methylamine","Methylamine",0
+"245","N-Amylamine","Alanine",0.1991
+"246","N-Butylamine","1-Butylamine",0.0556
+"247","Ethylamine","Ethylamine",0
+"248","Ethanolamine","Ethanolamine",0
+"249","Agmatine","Agmatine",0
+"250","Histamine","Histamine",0
+"251","?-Phenylethyl-amine","Phenylethylamine",0.0526
+"252","Formamide","Formamide",0
+"253","D,L-Lactamide","Lactosamine",0.2191
+"254","D-Galactosamine","D-Galactose",0.0889
+"255","D-Mannosamine","D-Mannose",0.1026
+"256","N-Acetyl-DGalactosamine","N-Acetylgalactosamine",0.0594
+"257","N-Acetyl-DMannosamine","N-Acetylanonaine",0.1002
+"258","Adenine","Adenine",0
+"259","Cytidine","Cytidine",0
+"260","Cytosine","Cytosine",0
+"261","Guanine","Guanine",0
+"262","Guanosine","Guanosine",0
+"263","Thymine","Thymine",0
+"264","Uracil","Uracil",0
+"265","Xanthine","Xanthine",0
+"266","Xanthosine","Xanthosine",0
+"267","UricAcid","Uric acid",0.1157
+"268","Alloxan","Alloxan",0
+"269","Allantoin","Allantoin",0
+"270","ParabanicAcid","Varanic acid",0.1991
+"271","D,L-?-Amino-NButyricAcid","L-alpha-Aminobutyric acid",0.2039
+"272","?-Amino-NButyricAcid","gamma-Aminobutyric acid",0.2326
+"273","?-Amino-NCaproicAcid","Aminocaproic acid",0.1588
+"274","D,L-?-Amino-CaprylicAcid","3-Aminocaproic acid",0.2266
+"275","?-Amino-NValericAcid","2-Aminoacrylic acid",0.2234
+"276","Ala-Asp","Alpha-1",0.2857
+"277","Ala-Gln","Alfalone",0.2202
+"278","Ala-Glu","Aspartyl-Glutamine",0.2513
+"279","Ala-Gly","Alpha-Linolenoyl-CoA",0.281
+"280","Ala-His","Alpha-Trisaccharide",0.2757
+"281","Ala-Leu","Aspartyl-Leucine",0.2351
+"282","Ala-Thr","Alachlor",0.2202
+"283","Gly-Asn","Glycyl-Lysine",0.2271
+"284","Gly-Gln","Glycodelin",0.2619
+"285","Gly-Glu","Glycyl-Glutamine",0.2589
+"286","Gly-Met","Glycyl-Methionine",0.1961
+"287","Met-Ala","Metosulam",0.2434
+"288","Phosphate","Phosphate",0
+"289","Pyrophosphate","Pyrophosphate",0
+"290","TrimetaPhosphate","Trimethaphan",0.1622
+"291","TripolyPhosphate","Triphosphate",0.1111
+"292","TriethylPhosphate","Diethylphosphate",0.1481
+"293","Hypophosphite","Hypophosphatemia",0.101
+"294","Adenosine-2’-monophosphate","Adenosine monophosphate",0.0658
+"295","Adenosine-3’-monophosphate","Adenosine monophosphate",0.0658
+"296","Adenosine-5’-monophosphate","Adenosine monophosphate",0.0658
+"297","Adenosine-2’,3’-cyclicmonophosphate","Adenosine monophosphate",0.1383
+"298","Adenosine-3’,5’-cyclicmonophosphate","Adenosine monophosphate",0.1383
+"299","D,L-?-GlycerolPhosphate","Glycerol Phosphate Shuttle",0.2023
+"300","ß-GlycerolPhosphate","Glycerol Phosphate Shuttle",0.1505
+"301","CarbamylPhosphate","Carbamoyl phosphate",0.1347
+"302","D-2-Phospho-GlycericAcid","2-Phosphoglyceric acid",0.1324
+"303","D-3-Phospho-GlycericAcid","3-Phosphoglyceric acid",0.1324
+"304","Guanosine-2’-monophosphate","Guanosine monophosphate",0.0658
+"305","Guanosine-3’-monophosphate","Guanosine monophosphate",0.0658
+"306","Guanosine-5’-monophosphate","Guanosine monophosphate",0.0658
+"307","Guanosine-2’,3’-cyclicmonophosphate","Guanosine monophosphate",0.1383
+"308","Guanosine-3’,5’-cyclicmonophosphate","Guanosine monophosphate",0.1383
+"309","PhosphoenolPyruvate","Phosphoenolpyruvic acid",0.1541
+"310","Phospho-GlycolicAcid","Phosphoglycolic acid",0.1
+"311","D-Glucose-1-Phosphate","D-Glucose",0.1905
+"312","D-Glucose-6-Phosphate","D-Glucose",0.1905
+"313","2-Deoxy-D-Glucose-6-Phosphate","1-Deoxy-D-xylulose 5-phosphate",0.1757
+"314","D-Glucosamine-6-Phosphate","Glucosamine 6-phosphate",0.1299
+"315","6-Phospho-GluconicAcid","6-Phosphogluconic acid",0.0909
+"316","Cytidine-2-monophosphate","Cytidine monophosphate",0.0568
+"317","Cytidine-3-monophosphate","Cytidine monophosphate",0.0568
+"318","Cytidine-2’,3’-cyclicmonophosphate","Cytidine monophosphate",0.1426
+"319","Cytidine-3’,5’-cyclicmonophosphate","Cytidine monophosphate",0.1426
+"320","D-Mannose-1-Phosphate","D-Mannose 1-phosphate",0.1161
+"321","D-Mannose-6-Phosphate","D-Mannose 1-phosphate",0.1323
+"322","Cysteamine-S-Phosphate","Cysteamine",0.1818
+"323","Phospho-L-Arginine","L-Phosphoarginine",0.1504
+"324","O-Phospho-D-Serine","Phosphoserine",0.1368
+"325","O-Phospho-L-Serine","Phosphoserine",0.1368
+"326","O-Phospho-L-Threonine","O-Phosphothreonine",0.082
+"327","Uridine-2’-monophosphate","Uridine 5'-monophosphate",0.0833
